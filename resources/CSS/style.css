@@ -1,0 +1,70 @@
+/*
+blue: #7386D5
+light blue: #A0B6F5
+cream: #FFEFEF
+red: #FF2C2C
+colorhunt: http://colorhunt.co/c/70734
+
+specs:
+background-color: rgb(255,242,242)
+color: rgb(32, 64, 86)
+color: rgb(74,74,74)
+
+*/
+html {
+  font-size: 14px;
+}
+
+header {
+
+}
+
+body {
+  /*background-color: rgb(255,242,242);*/
+
+  color: rgb(32, 64, 86);
+  font-family: "Work Sans", "Arial", sans-serif;
+  text-align: center;
+  background-color: #FFEFEF;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+p {
+  color: rgb(74,74,74);
+  font-size: 1rem;
+}
+#game {
+  margin-top: 5.25rem;
+}
+#game .card {
+  height: 12.5rem;
+  font-weight: 900;
+  font-size: 7em;
+  color: rgb(255,255,255);
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+  background-color: rgb(32,64,86);
+  cursor: pointer;
+}
+
+.col-xs-12.col-sm-12 {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .col-xs-12.col-sm-12 {
+    display: block;
+  }
+  #instructions.col-md-3.col-lg-3,
+  #game.col-md-9.col-lg-9 {
+    display: none;
+  }
+
+}
