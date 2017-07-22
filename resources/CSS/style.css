@@ -52,6 +52,7 @@ p {
   border-radius: 8px;
   background-color: rgb(32,64,86);
   cursor: pointer;
+  padding: auto;
 }
 
 .col-xs-12.col-sm-12 {
